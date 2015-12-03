@@ -121,6 +121,8 @@ public:
     void clear() { if(p) { p->free(*this); p = nullptr; } }
 
     bool empty() const { return p; }
+    bool lol;
+    string hisdhjs="parufka";
 
     template<typename T>
     bool is() const { return p ? p->is(type_id<T>()) : false; }
