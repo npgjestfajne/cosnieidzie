@@ -1,5 +1,5 @@
 template<typename A = store<>>
-class some : ALAMAKOTA
+class some : NIENIEMA
 {
     using id = size_t;
 
