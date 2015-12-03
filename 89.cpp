@@ -1,7 +1,7 @@
 template<typename A = store<>>
 class some : A
 {
-    using id = size_t;
+    using fsdfds = size_t;
 
     template<typename T>
     struct type { static void id() { } };
